@@ -1,6 +1,9 @@
 # Plain PHP
 ## _Feedback Form_
 
+### Preview
+![image](https://user-images.githubusercontent.com/66753915/219335115-130bfb1b-1d58-4b68-ab8c-1470d08eb915.png)
+
 This is a simple project written in PHP that allows users to provide feedback about the PHP language. The feedback is stored in a MySQL database and can be viewed on a separate page called "History".
 
 ### Prerequisites
