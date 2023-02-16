@@ -63,8 +63,8 @@ if (isset($_POST['submit'])) {
 <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" class="mt-4 w-75">
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
-        <input type="text" class="form-control <?php echo !$nameErr ?:
-            'is-invalid'; ?>" id="name" name="name" placeholder="Enter your name" value="<?php echo $name; ?>">
+        <input type="text" class="form-control <?php echo !$nameErr ?: 'is-invalid'; ?>" id="name" name="name"
+               placeholder="Enter your name" value="<?php echo $name; ?>">
         <div id="validationServerFeedback" class="invalid-feedback">
             Please provide a valid name.
         </div>
